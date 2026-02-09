@@ -1,0 +1,97 @@
+/* About Site Styles */
+.about-site {
+  padding: 2rem 0;
+}
+
+.about-site h2 {
+  font-family: 'Georgia', serif;
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.admin-content {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h3 {
+  font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  line-height: 1.6;
+  color: #555;
+}
+
+.edit-btn {
+  background: #f39c12;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  display: block;
+  margin: 0 auto;
+}
+
+.admin-form {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.form-group textarea {
+  padding: 0.75rem;
+  border: 2px solid #dee2e6;
+  border-radius: 4px;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.form-actions button {
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.form-actions button:first-child {
+  background: #27ae60;
+  color: white;
+}
+
+.form-actions button:last-child {
+  background: #95a5a6;
+  color: white;
+}

@@ -1,0 +1,57 @@
+/* Footer Styles */
+.footer {
+  background: #2c3e50;
+  color: white;
+  padding: 3rem 2rem 1rem;
+  margin-top: auto;
+  border-top: 5px solid black;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #ecf0f1;
+}
+
+.footer-section p {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.footer-section a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.ownership {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #34495e;
+  text-align: center;
+  font-style: italic;
+  color: #bdc3c7;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  font-family: 'Helvetica', sans-serif;
+}

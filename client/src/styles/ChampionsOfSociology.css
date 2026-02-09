@@ -1,0 +1,58 @@
+/* Champions of Sociology Styles */
+.champions-of-sociology {
+  padding: 2rem 0;
+}
+
+.champions-of-sociology h2 {
+  font-family: 'Georgia', serif;
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.leaderboard-table th {
+  background: #2c3e50;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.leaderboard-table tr:nth-child(even) {
+  background: #f8f9fa;
+}
+
+.leaderboard-table tr:hover {
+  background: #e9ecef;
+}
+
+.leaderboard-table .top-ten {
+  background: linear-gradient(135deg, #ffd700, #ffb347);
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.leaderboard-table .top-ten td {
+  border-bottom-color: #ffd700;
+}
+
+.leaderboard-table .top-ten:hover {
+  background: linear-gradient(135deg, #ffb347, #ffd700);
+}
