@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/queen-of-science/static/css/main.ff10d034.css",
+    "main.js": "/queen-of-science/static/js/main.a2084018.js",
+    "index.html": "/queen-of-science/index.html",
+    "main.ff10d034.css.map": "/queen-of-science/static/css/main.ff10d034.css.map",
+    "main.a2084018.js.map": "/queen-of-science/static/js/main.a2084018.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff10d034.css",
+    "static/js/main.a2084018.js"
+  ]
+}
